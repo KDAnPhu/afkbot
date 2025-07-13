@@ -9,7 +9,7 @@ function createBot() {
   const bot = mineflayer.createBot({
     host: 'svVanillaSMP.aternos.me', // IP server của m
     port: 25565,                      // Cổng server (nếu có)
-    username: 'AFK_Bot_' + Math.floor(Math.random() * 1000),
+    username: 'AFK_Bot'
     version: false
   });
 
